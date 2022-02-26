@@ -8,7 +8,7 @@ This is a basic portfolio website
 
 ## Live Site
 
-You can view it [here](here)
+You can view it [here](https://zelipha.github.io/portfolio-landing_page)
 
 ## Known Bugs
 
