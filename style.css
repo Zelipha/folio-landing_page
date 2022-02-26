@@ -3,30 +3,28 @@ body {
   padding: 0;
 }
 
-ul,
-p {
-  margin: 0;
-}
-
 header {
   background: rgb(10, 10, 34);
   height: 70px;
   width: 100%;
 }
 
-.navbar ul,
-.navbar ul a {
+header .navbar ul {
   list-style: none;
+  float: right;
+  margin-right: 40px;
+}
+
+header .navbar li {
+  float: left;
+}
+
+header .navbar li a {
   color: rgb(223, 221, 221);
   text-decoration: none;
-  display: flex;
-  justify-content: flex-end;
-}
-.navbar a {
-  display: block;
   font-size: 20px;
-  padding: 15px;
-  margin-right: 25px;
+  padding: 20px;
+  margin: 20px;
 }
 
 section.About,
@@ -35,31 +33,44 @@ section.Contact {
   width: 100%;
   height: 100vh;
   margin-top: 0;
-  overflow: hidden;
 }
 
 section.About {
   background: rgb(18, 18, 63);
   color: rgb(223, 221, 221);
 }
-.hey h1,
-.hey p,
-.whoami h3,
-.whoami p {
+
+.container {
+  margin-left: 20px;
+}
+
+.container > section {
+  width: 50%;
+  float: left;
+}
+
+section img {
+  margin: 60px 0 0 60px;
+}
+
+.hey {
   text-align: center;
 }
 
+span {
+  color: rgb(241, 113, 134);
+}
 .hey h1 {
   font-size: 40px;
+  margin-bottom: 0;
 }
 
-.hey p {
-  font-size: 20px;
-  color: coral;
+.hey p.title {
+  font-size: 26px;
+  color: rgb(218, 101, 55);
 }
 
-div p.cool {
-  border: 1px solid transparent;
+.hey p.cool {
   max-width: 500px;
   margin: 30px auto;
   line-height: 1.5;
@@ -70,14 +81,13 @@ strong {
   color: rgb(52, 146, 49);
 }
 
-.whoami h3 {
+.hey h3 {
   color: dodgerblue;
   font-size: 25px;
 }
 
-.whoami p {
-  line-height: 1.5;
-  font-size: 17px;
+.hey p {
+  font-size: 19px;
 }
 
 section.Projects {
