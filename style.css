@@ -22,9 +22,14 @@ header .navbar li {
 header .navbar li a {
   color: rgb(223, 221, 221);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 900;
   padding: 20px;
   margin: 20px;
+}
+
+header .navbar li a:hover {
+  color: rgb(219, 168, 58);
 }
 
 section.About,
@@ -61,6 +66,7 @@ section img {
 span {
   color: rgb(241, 113, 134);
 }
+
 .hey h1 {
   font-size: 40px;
   margin-bottom: 0;
@@ -124,7 +130,50 @@ section.Projects h1 {
 }
 
 section.Contact {
-  background: rgb(42, 63, 60);
+  background: rgb(60, 60, 90);
+}
+
+.contact {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.contact h1 {
+  font-size: 50px;
+}
+
+.contact p {
+  font-size: 30px;
+  color: chartreuse;
+}
+
+.contact .fa {
+  display: inline-block;
+  width: 50px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.contact .fa:hover {
+  color: cornsilk;
+}
+
+.fa-linkedin {
+  color: #0278b8;
+}
+
+.fa-twitter {
+  color: #55a4e0;
+}
+
+.fa-envelope {
+  color: rgb(189, 32, 32);
+}
+
+.fa-github {
+  color: #181717;
 }
 
 footer {
@@ -136,4 +185,5 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 900;
 }
