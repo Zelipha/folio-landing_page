@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a basic portfolio website
+This is a basic portfolio website hosted on github
 
 ## Live Site
 
